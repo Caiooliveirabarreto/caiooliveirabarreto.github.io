@@ -1,0 +1,34 @@
+.rotacao{
+    animation: rotacao 25s infinite ease-in-out;
+    display: inline-block;
+}
+@keyframes rotacao {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+.galeria-img{
+    border-radius: 25px;
+    background-color: #94C969;
+    border: 2px solid #5c853a;
+}
+.texto{
+    text-shadow: 1px 1px 3px rgba(101, 161, 189, 0.4);;
+    font-family: "Alike", serif;
+}
+.titulo{
+    font-family: "Aboreto", system-ui;
+    font-weight: 400;
+    text-decoration: underline #5895be;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
